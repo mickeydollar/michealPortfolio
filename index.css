@@ -212,3 +212,10 @@ article .icon{
     margin-bottom: 4rem;
     
 }
+
+@media (max-width: 767px) {
+    .experience-container{
+        width: 55%;
+        height: 100%;
+    }
+}
