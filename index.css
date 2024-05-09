@@ -113,6 +113,10 @@ section{
     margin: 0 0 20px;
 }
 
+#hero span{
+    color: #3C5767;
+}
+
 #hero p{
     font-size: 20px;
     margin: 0 0 25px;
@@ -155,7 +159,8 @@ section{
 
 #experience span{
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 
 .experience-container{
@@ -177,7 +182,7 @@ section{
     color: #3C5767;
 }
 
-img{
+article img{
     width: 70px;
     
 }
@@ -210,12 +215,107 @@ article{
 article .icon{
     cursor: default;
     margin-bottom: 4rem;
-    
 }
 
 @media (max-width: 767px) {
+    #hero h1{
+        font-weight: 400;
+        font-size: 30px;
+    }
+
     .experience-container{
-        width: 55%;
+        width: 70%;
         height: 100%;
     }
+
 }
+
+/* project */
+#project{
+    justify-content: center;
+    align-items: center;
+    background-color: #3C5767;
+}
+
+.intro{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.intro h2{
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.project-cards{
+    height: 65vh;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.image-wrapper{
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 1rem;
+   
+}
+
+.image-wrapper img{
+    width: 300px;
+    height: 45vh;
+    border-radius: 20px;
+}
+
+/* buttton */
+.bn53 {
+    background-color: #ffff;
+    padding: 7px 8px;
+    width: 100px;
+    border-radius: 20px;
+    font-family: "Jost", sans-serif;
+    animation: bn53bounce 4s infinite;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: 500;
+  }
+  
+  @keyframes bn53bounce {
+    5%,
+    50% {
+      transform: scale(1);
+    }
+  
+    10% {
+      transform: scale(1);
+    }
+  
+    15% {
+      transform: scale(1);
+    }
+  
+    20% {
+      transform: scale(1) rotate(-5deg);
+    }
+  
+    25% {
+      transform: scale(1) rotate(5deg);
+    }
+  
+    30% {
+      transform: scale(1) rotate(-3deg);
+    }
+  
+    35% {
+      transform: scale(1) rotate(2deg);
+    }
+  
+    40% {
+      transform: scale(1) rotate(0);
+    }
+  }
