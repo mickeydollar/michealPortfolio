@@ -217,9 +217,7 @@ article .icon{
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
-        background-repeat: no-repeat;
-    
-        
+        background-image: url(./images/pexels-anete-lusina-5721137.jpg);
     }
     #hero h1{
         font-weight: 600;
